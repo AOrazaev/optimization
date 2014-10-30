@@ -1,0 +1,39 @@
+window:
+    size: [1000, 800]
+    caption: 'Path optimization'        
+
+field:
+    color: white
+    start_color: light_blue
+    destination_color: light_green
+    path_color: black
+    penalty_point_color: black
+    penalty_point_size: 3
+    penalty_area_color: red
+    point_size: 40
+
+colors:
+    white: [255, 255, 255]
+    black: [0, 0, 0]
+    red: [255, 0, 0]
+    green: [0, 255, 0]
+    blue: [0, 0, 255]
+    light_green: [102, 255, 153]
+    light_blue: [153, 204, 255]
+
+model:
+    start: [200, 200]
+    destination: [900, 600]
+    next_point_diviation: 200
+    mutation_probability: 0.2
+    population_size: 50
+    num_to_choose: 5
+    mutate_best: 0
+    points_in_path: [4, 10]
+    penalty_areas:
+        - [[300, 300], 50]
+        - [[300, 325], 50]
+        - [[500, 475], 50]
+        - [[300, 500], 50]
+        - [[500, 200], 150]
+        - [[140, 500], 150]
