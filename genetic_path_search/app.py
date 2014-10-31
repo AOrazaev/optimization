@@ -118,7 +118,6 @@ def handle_input(event):
 def loop(window, config):
     field = FieldSprite(config)
     model = PathModel(config)
-    done = False
     pygame.event.wait()
     while True:
         field.redraw(model)

@@ -1,0 +1,25 @@
+colors:
+    white: [255, 255, 255]
+    black: [0, 0, 0]
+    red: [255, 0, 0]
+    green: [0, 255, 0]
+    blue: [0, 0, 255]
+    light_green: [102, 255, 153]
+    light_blue: [153, 204, 255]
+    gray: [153, 153, 153]
+
+window:
+    size: [600, 400]
+    caption: "Travelling salesman problem"
+
+view:
+    bgcolor: white
+    town_color: light_green
+    town_size: 10
+    road_color: black
+    best_road_color: light_blue
+
+model:
+    num_towns: 40
+    T0: 1000
+    type: fast # you can also specify "fast"
